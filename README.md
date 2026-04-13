@@ -43,5 +43,9 @@ To prepare the data for further analysis, I performed the following steps:
 3. Null removal: Removed 0 entry in `dailySteps` table
 4. Data Merging: Joined `cleaned_step` and `cleaned_sleep` tables on `Id` and `Date` to create dataset for further correlation analysis
 
+### Troubleshooting  
+Challenge: Encountered a parsing error when uploading sleepDay_merged.csv due to non-ISO date formatting (MM/DD/YYYY AM/PM)
+Resolution: Manually defined the schema as STRING during upload to bypass auto-detection errors, followed by PARSE_TIMESTAMP in SQL to standardize the data for analysis.
+
 ### Documentation of Changes
 All SQL scripts used for cleaning process can be found in `/scripts` folder of this repository
