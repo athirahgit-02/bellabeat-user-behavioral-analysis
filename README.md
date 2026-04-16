@@ -55,17 +55,19 @@ All SQL scripts used for cleaning process can be found in `/scripts` folder of t
 ### Goal  
 To identify trends in Fitbit user behavior and determine the optimal balance between physical activity and restorative sleep  
 
-Insight 1  
+#### Insight 1  
 Hypothesis: Does reaching "Highly Active" tier (10k+ steps) lead to better sleep quality?  
 Finding: Users in the highest activity tier recorded the highest Minutes Awake and a noticeable drop in Sleep Efficiency %  
 Explaination: Extreme physical output without proper "wind-down" periods appears to cause feeling restlessness  
 
-Insight 2  
+#### Insight 2  
 Hypothesis: How does behavior shift across a standard 7-day week?  
 Finding: Saturday is the peak day for activity (highest step count), while Sunday consistently shows the highest duration of sleep  
 Explaination: The body compensates for Saturday's high-intensity output with a restorative "Sunday Reset  
 
-Insight 3  
+#### Insight 3  
 Hypothesis: Is there a perfect balance for activity that allows for maximum sleep quality?  
 Finding: 'Optimal Range' for activity lies between 5000 and 8000 steps  
 Explaination: Within this range, users achieved their highest sleep efficiency scores. Beyond this threshold, efficiency drops as wakefulness begins to increase  
+
+#### View full analysis here ./scripts/analysis_data.sql
