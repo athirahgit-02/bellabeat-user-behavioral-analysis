@@ -70,4 +70,4 @@ Hypothesis: Is there a perfect balance for activity that allows for maximum slee
 Finding: 'Optimal Range' for activity lies between 5000 and 8000 steps  
 Explaination: Within this range, users achieved their highest sleep efficiency scores. Beyond this threshold, efficiency drops as wakefulness begins to increase  
 
-#### View full analysis here ./scripts/analysis_data.sql
+#### View full analysis here [Data Analysis](./scripts/analysis_data.sql)
