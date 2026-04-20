@@ -72,9 +72,9 @@ Explaination: Within this range, users achieved their highest sleep efficiency s
 
 #### View full analysis here [Data Analysis](./scripts/analysis_data.sql)  
 
-## Share phase  
+## 5. Share phase  
 
-### In the final phase of this project, I translated technical findings into an interactive business dashboard. The goal was to provide Bellabeat executives with a diagnostic tool to understand user behavior and drive marketing strategy.  
+In the final phase of this project, I translated technical findings into an interactive business dashboard. The goal was to provide Bellabeat executives with a diagnostic tool to understand user behavior and drive marketing strategy.  
 
 ### Interactive Dashboard  
 The final dashboard was designed with a "Narrative Sidebar" to provide context alongside the visual evidence. It includes dynamic filters for User ID and Date Ranges, allowing for both macro-trends and individual-persona deep dives.  
