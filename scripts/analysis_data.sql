@@ -19,10 +19,10 @@ SELECT
     TotalTimeInBed,
     MinutesAwakeInBed,
                                             
-    -- 3. Calculations (For your Efficiency and Awake Insights)
+    -- 3. Calculations (For Efficiency and Awake Insights)
     SAFE_DIVIDE(TotalMinutesAsleep, TotalTimeInBed) AS SleepEfficiency,
                                                             
-    -- 4. Logic (For your Activity Tier Insight)
+    -- 4. Logic (For Activity Tier Insight)
     CASE 
       WHEN StepTotal < 5000 THEN '1. Sedentary (<5k steps)'
       WHEN StepTotal BETWEEN 5000 AND 10000 THEN '2. Active (5k - 10k steps)'
