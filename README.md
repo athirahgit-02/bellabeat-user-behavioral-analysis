@@ -54,7 +54,7 @@ Resolution: Manually defined the schema as STRING during upload to bypass auto-d
  
 In this phase, I used SQL to create new metrics that would reveal the relationship between physical exertion and restorative sleep.
 
-#### Query shows:  
+### Query shows:  
 1. Activity Tier: Used a `CASE` statement to bucket users into three tiers: Sedentary, Active, and Highly Active.
 Finding: I found that the users in the Active Tier (5k - 10k steps) achieved the most stable balance of high activity and high sleep efficiency.
 
@@ -68,9 +68,7 @@ Finding: Users that are in Active Tier (5k - 10k steps) enjoys more quality and 
 
 ## 5. Share phase  
 
-In the final phase of this project, I translated technical findings into an interactive business dashboard. The goal was to provide Bellabeat executives with a diagnostic tool to understand user behavior and drive marketing strategy.  
-  
-#### [Link to Live Dashboard]  
+In the final phase of this project, I translated technical findings into an interactive business dashboard. The goal was to provide Bellabeat executives with a diagnostic tool to understand user behavior and drive marketing strategy.   
 
 ### Key Data Insight:  
   
@@ -85,6 +83,8 @@ Insight: Though Saturday shows the highest StepTotal, users spend more TotalTime
 3. Optimal Range
 Chart: A scatter plot showing StepTotal against SleepEfficiency.
 Insight: An Optimal Range between 5000 steps and 10,000 steps (Active Tier) can be identified. While users in this range maintain sleep efficiency, users that took more than 10,000 steps shows diminishing returns. 
+
+#### [Link to Live Dashboard]  
 
 ## 6. Act phase  
 
