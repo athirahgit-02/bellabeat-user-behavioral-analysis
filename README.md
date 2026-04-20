@@ -55,14 +55,14 @@ Resolution: Manually defined the schema as STRING during upload to bypass auto-d
 In this phase, I used SQL to create new metrics that would reveal the relationship between physical exertion and restorative sleep.
 
 #### Query shows:  
-1. Activity Tier: Used a `CASE` statement bucket users into three tiers: Sedentary, Active, and Highly Active.
-   Finding: I found that the users in the Active Tier (5k - 10k steps) achieved the most stable balance of high activity and high sleep efficiency.
+1. Activity Tier: Used a `CASE` statement to bucket users into three tiers: Sedentary, Active, and Highly Active.
+Finding: I found that the users in the Active Tier (5k - 10k steps) achieved the most stable balance of high activity and high sleep efficiency.
 
 2. Weekly trend: I implemented a custom DayNumSort using a `CASE` statement to force a Monday-start (Mon=1, Sun=7).
-   Finding: This revealed that while Sunday has the highest TotalTimeInBed, it consistently shows the lowest SleepEfficiency. This suggests that users are attempting to "repay" sleep debt, but with low-quality results.
+Finding: This revealed that while Sunday has the highest TotalTimeInBed, it consistently shows the lowest SleepEfficiency. This suggests that users are attempting to "repay" sleep debt, but with low-quality results.
 
 3. Sleep Efficiency: I used the `SAFE_DIVIDE` function to calculate sleep efficiency which is the ratio of actual restorative sleep to the total time committed to being in bed.
-   Finding: Users that are in Active Tier (5k - 10k steps) enjoys more quality and efficient sleep.
+Finding: Users that are in Active Tier (5k - 10k steps) enjoys more quality and efficient sleep.
 
 #### View full analysis here [Data Analysis](./scripts/analysis_data.sql)  
 
