@@ -91,13 +91,13 @@ Insight: An Optimal Range between 5000 steps and 10,000 steps (Active Tier) can 
 Based on the analysis of user behavior trends, I have developed the following data-driven recommendations for the Bellabeat marketing and product teams:  
 
 1. Targeted Recovery for "Highly Active" Users
-Problem: Users in the 'Highly Active' tier show significantly higher wakefulness during the night, indicating that over-exertion leads to intrupted sleep.
-Action: Implement an app notification that triggered when a user exceeds their 7-day step average by 25% and suggesting cool-down routine to help protect sleep efficiency.
+   Problem: Users in the 'Highly Active' tier show significantly higher wakefulness during the night, indicating that over-exertion leads to intrupted sleep.
+   Action: Implement an app notification that triggered when a user exceeds their 7-day step average by 25% and suggesting cool-down routine to help protect sleep efficiency.
 
-2. Introduce 'Restorative Sundays'
-Problem: Data reveals low SleepEfficiency on Sundays following high-activity Saturdays (>10k steps).
-Action: Launch "Restorative Sundays" feature. Instead of encouraging "sleeping in," the app should push low-impact recovery activities (yoga, meditation) to lower cortisol levels before the work week begins.
+3. Introduce 'Restorative Sundays'
+   Problem: Data reveals low SleepEfficiency on Sundays following high-activity Saturdays (>10k steps).
+   Action: Launch "Restorative Sundays" feature. Instead of encouraging "sleeping in," the app should push low-impact recovery activities (yoga, meditation) to lower cortisol levels before the work week begins.
 
-3. Optimized Goal Settings
-Problem: Users are focused on hitting 10,000 steps, often at the expense of their sleep quality (especially on high-exertion days).
-Action: Switch marketing from 'Volume' to 'Quality' to achieve a "Wellness Sweet Spot." Instead of a hard 10k goal, implement a dynamic target range (e.g., 7k – 10k steps) that promotes the highest sleep efficiency.
+5. Optimized Goal Settings
+   Problem: Users are focused on hitting 10,000 steps, often at the expense of their sleep quality (especially on high-exertion days).
+   Action: Switch marketing from 'Volume' to 'Quality' to achieve a "Wellness Sweet Spot." Instead of a hard 10k goal, implement a dynamic target range (e.g., 7k – 10k steps) that promotes the highest sleep efficiency.
