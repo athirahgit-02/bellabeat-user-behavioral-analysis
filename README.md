@@ -90,22 +90,14 @@ Insight: An Optimal Range between 5000 steps and 10,000 steps (Active Tier) can 
 
 Based on the analysis of user behavior trends, I have developed the following data-driven recommendations for the Bellabeat marketing and product teams:  
 
-1. Shift the Narrative: From "Volume" to "Quality"
-The Problem: Users are focused on hitting 10,000 steps, often at the expense of their sleep quality (especially on high-exertion days).
+1. Targeted Recovery for "Highly Active" Users
+Problem: Users in the 'Highly Active' tier show significantly higher wakefulness during the night, indicating that over-exertion leads to intrupted sleep.
+Action: Implement an app notification that triggered when a user exceeds their 7-day step average by 25% and suggesting cool-down routine to help protect sleep efficiency.
 
-The Act: Update the Bellabeat app to emphasize a "Wellness Sweet Spot." Instead of a hard 10k goal, implement a dynamic target range (e.g., 7.5k–10.5k steps) that promotes the highest sleep efficiency.
+2. Introduce 'Restorative Sundays'
+Problem: Data reveals low SleepEfficiency on Sundays following high-activity Saturdays (>10k steps).
+Action: Launch "Restorative Sundays" feature. Instead of encouraging "sleeping in," the app should push low-impact recovery activities (yoga, meditation) to lower cortisol levels before the work week begins.
 
-2. Solve the "Sunday Paradox"
-The Problem: Data reveals that Sunday "catch-up" sleep is low-quality and high-restlessness.
-
-The Act: Launch a "Sunday Wind-Down" feature. The app should send personalized notifications on Sunday evenings encouraging a consistent bedtime and a 30-minute digital detox, rather than allowing users to rely on sleeping in late Monday morning.
-
-3. Targeted Recovery for "Highly Active" Users
-The Problem: Users in the 'Highly Active' tier (12k+ steps) show significantly higher wakefulness during the night.
-
-The Act: Implement an Automatic Recovery Trigger. When the app detects a 20% spike over a user’s average daily activity, it should suggest "Active Recovery" content, such as guided stretching or magnesium-focused nutrition tips, to reduce physiological stress before bed.
-
-4. Marketing Re-Positioning
-The Problem: There is a clear gap in user knowledge regarding how sedentary days impact sleep latency.
-
-The Act: Create a content marketing campaign titled "The Movement-Sleep Connection." Use the dashboard insights to show potential customers how Bellabeat products don't just track steps—they help you "Unlock Better Rest."
+3. Optimized Goal Settings
+Problem: Users are focused on hitting 10,000 steps, often at the expense of their sleep quality (especially on high-exertion days).
+Action: Switch marketing from 'Volume' to 'Quality' to achieve a "Wellness Sweet Spot." Instead of a hard 10k goal, implement a dynamic target range (e.g., 7k – 10k steps) that promotes the highest sleep efficiency.
