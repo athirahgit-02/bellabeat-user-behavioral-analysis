@@ -48,7 +48,7 @@ To prepare the data for further analysis, I performed the following steps:
 Challenge: Encountered a parsing error when uploading sleepDay_merged.csv due to non-ISO date formatting (MM/DD/YYYY AM/PM)  
 Resolution: Manually defined the schema as STRING during upload to bypass auto-detection errors, followed by PARSE_TIMESTAMP in SQL to standardize the data for analysis.
 
-#### View the full cleaning logic here [Data Cleaning](./scripts/cleaning_data.sql) 
+### View the full cleaning logic here [Data Cleaning](./scripts/cleaning_data.sql) 
 
 ## 4. Analyze phase  
  
@@ -64,7 +64,7 @@ Finding: This revealed that while Sunday has the highest TotalTimeInBed, it cons
 3. Sleep Efficiency: I used the `SAFE_DIVIDE` function to calculate sleep efficiency which is the ratio of actual restorative sleep to the total time committed to being in bed.
 Finding: Users that are in Active Tier (5k - 10k steps) enjoys more quality and efficient sleep.
 
-#### View full analysis here [Data Analysis](./scripts/analysis_data.sql)  
+### View full analysis here [Data Analysis](./scripts/analysis_data.sql)  
 
 ## 5. Share phase  
 
@@ -84,7 +84,7 @@ Insight: Though Saturday shows the highest StepTotal, users spend more TotalTime
 Chart: A scatter plot showing StepTotal against SleepEfficiency.
 Insight: An Optimal Range between 5000 steps and 10,000 steps (Active Tier) can be identified. While users in this range maintain sleep efficiency, users that took more than 10,000 steps shows diminishing returns. 
 
-#### View the interactive dashboard here [Data Studio Report](https://datastudio.google.com/reporting/7293fea3-546d-42a9-98e6-ead61a90cf50)  
+### View the interactive dashboard here [Data Studio Report](https://datastudio.google.com/reporting/7293fea3-546d-42a9-98e6-ead61a90cf50)  
 
 ## 6. Act phase  
 
