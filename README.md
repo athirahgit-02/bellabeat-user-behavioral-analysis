@@ -58,11 +58,9 @@ In this phase, I used SQL to create new metrics that would reveal the relationsh
 ### Query shows:  
 1. Activity Tier: Used a `CASE` statement to bucket users into three tiers: Sedentary, Active, and Highly Active. <br> Finding: I found that the users in the Active Tier (5k - 10k steps) achieved the most stable balance of high activity and high sleep efficiency.
 
-4. Weekly trend: I implemented a custom DayNumSort using a `CASE` statement to force a Monday-start (Mon=1, Sun=7).
-    Finding: This revealed that while Sunday has the highest TotalTimeInBed, it consistently shows the lowest SleepEfficiency. This suggests that users are attempting to "repay" sleep debt, but with low-quality results.
+4. Weekly trend: I implemented a custom DayNumSort using a `CASE` statement to force a Monday-start (Mon=1, Sun=7). <br> Finding: This revealed that while Sunday has the highest TotalTimeInBed, it consistently shows the lowest SleepEfficiency. This suggests that users are attempting to "repay" sleep debt, but with low-quality results.
 
-5. Sleep Efficiency: I used the `SAFE_DIVIDE` function to calculate sleep efficiency, defined as the ratio of actual restorative sleep to the total time spent in bed.
-    Finding: Users who are in the Active Tier (5k - 10k steps) enjoy higher-quality, more efficient sleep.
+5. Sleep Efficiency: I used the `SAFE_DIVIDE` function to calculate sleep efficiency, defined as the ratio of actual restorative sleep to the total time spent in bed. <br> Finding: Users who are in the Active Tier (5k - 10k steps) enjoy higher-quality, more efficient sleep.
 
 ### View full analysis here: [Data Analysis](./scripts/analysis_data.sql)  
 
@@ -73,16 +71,13 @@ In the final phase of this project, I translated technical findings into an inte
 ### Key Data Insight:  
   
 1. [The Activity Tier](./visuals/activity_tier.png) 
-Chart: Bar chart of MinutesAwakeinBed based on ActivityTier (Sedentary, Active and Highly Active)
-Insight: The Highly Active tier (>10k steps) shows a spike in restlessness (Minutes Awake). This indicates that extreme physical exertion might cause stress that interferes with staying asleep.
+Chart: Bar chart of MinutesAwakeinBed based on ActivityTier (Sedentary, Active and Highly Active) <br> Insight: The Highly Active tier (>10k steps) shows a spike in restlessness (Minutes Awake). This indicates that extreme physical exertion might cause stress that interferes with staying asleep.
 
 2. [Weekly Trend](./visuals/weekly_trend.png)
-Chart: A dual-axis line chart comparing StepTotal against SleepEfficiency across the week
-Insight: Though Saturday shows the highest StepTotal, users spend more TotalTimeInBed with higher Minutes Awake (restlessness) on Sunday to recover, leading to the lowest SleepEfficiency of the week.
+Chart: A dual-axis line chart comparing StepTotal against SleepEfficiency across the week <br> Insight: Though Saturday shows the highest StepTotal, users spend more TotalTimeInBed with higher Minutes Awake (restlessness) on Sunday to recover, leading to the lowest SleepEfficiency of the week.
 
 3. [Optimum Range](./visuals/optimum_range.png)
-Chart: A scatter plot showing StepTotal against SleepEfficiency.
-Insight: An Optimal Range between 5000 steps and 10,000 steps (Active Tier) can be identified. While users in this range maintain sleep efficiency, users who took more than 10,000 steps show diminishing returns.
+Chart: A scatter plot showing StepTotal against SleepEfficiency. <br> Insight: An Optimal Range between 5000 steps and 10,000 steps (Active Tier) can be identified. While users in this range maintain sleep efficiency, users who took more than 10,000 steps show diminishing returns.
 
 ### View the interactive dashboard here: [![Bellabeat Dashboard](./visuals/bellabeat_dashboard.png)](https://datastudio.google.com/reporting/7293fea3-546d-42a9-98e6-ead61a90cf50)  
 
@@ -92,17 +87,11 @@ Insight: An Optimal Range between 5000 steps and 10,000 steps (Active Tier) can 
 
 Based on the analysis of user behavior trends, I have developed the following data-driven recommendations for the Bellabeat marketing and product teams:  
 
-1. Targeted Recovery for "Highly Active" Users
-   Problem: Users in the 'Highly Active' tier show significantly higher wakefulness during the night, indicating that over-exertion leads to interrupted sleep.
-   Action: Implement an app notification that triggers when a user exceeds their 7-day step average by 25% and suggests a cool-down routine to help protect sleep efficiency.
+1. Targeted Recovery for "Highly Active" Users <br> Problem: Users in the 'Highly Active' tier show significantly higher wakefulness during the night, indicating that over-exertion leads to interrupted sleep. <br> Action: Implement an app notification that triggers when a user exceeds their 7-day step average by 25% and suggests a cool-down routine to help protect sleep efficiency.
 
-3. Introduce 'Restorative Sundays'
-   Problem: Data reveals low SleepEfficiency on Sundays following high-activity Saturdays (>10k steps).
-   Action: Launch "Restorative Sundays" feature. Instead of encouraging "sleeping in," the app should push low-impact recovery activities (yoga, meditation) to lower cortisol levels before the work week begins.
+3. Introduce 'Restorative Sundays' <br> Problem: Data reveals low SleepEfficiency on Sundays following high-activity Saturdays (>10k steps). <br> Action: Launch "Restorative Sundays" feature. Instead of encouraging "sleeping in," the app should push low-impact recovery activities (yoga, meditation) to lower cortisol levels before the work week begins.
 
-5. Optimized Goal Settings
-   Problem: Users are focused on hitting 10,000 steps, often at the expense of their sleep quality (especially on high-exertion days).
-   Action: Switch marketing from 'Volume' to 'Quality' to achieve a "Wellness Sweet Spot." Instead of a hard 10k goal, implement a dynamic target range (e.g., 7k – 10k steps) that promotes the highest sleep efficiency.
+5. Optimized Goal Settings <br> Problem: Users are focused on hitting 10,000 steps, often at the expense of their sleep quality (especially on high-exertion days). <br> Action: Switch marketing from 'Volume' to 'Quality' to achieve a "Wellness Sweet Spot." Instead of a hard 10k goal, implement a dynamic target range (e.g., 7k – 10k steps) that promotes the highest sleep efficiency.
 
 ------
 ### 📧 Let's Connect!
