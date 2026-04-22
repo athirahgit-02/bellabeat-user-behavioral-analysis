@@ -87,6 +87,8 @@ Insight: An Optimal Range between 5000 steps and 10,000 steps (Active Tier) can 
 
 ### View the interactive dashboard here [![Bellabeat Dashboard](./visuals/bellabeat_dashboard.png)](https://datastudio.google.com/reporting/7293fea3-546d-42a9-98e6-ead61a90cf50)  
 
+*Click the dashboard image above to explore the interactive version in Data Studio.*
+
 ## 6. Act phase  
 
 Based on the analysis of user behavior trends, I have developed the following data-driven recommendations for the Bellabeat marketing and product teams:  
