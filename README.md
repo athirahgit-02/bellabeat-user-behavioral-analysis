@@ -4,7 +4,7 @@ Data analysis case study on FitBit fitness tracker data using SQL and Google Dat
 ## 1. Ask phase
 
 ### Business Task
-To gain insight into how users are using smart devices to help guide Bellabeat's marketing strategy
+To gain insight into how users are using fitness smart devices to help guide Bellabeat's marketing strategy
 
 ### Stakeholder
 Urška Sršen: Co-founder & Chief Creative Officer  
@@ -34,13 +34,14 @@ The data is stored in 18 CSV files. For this analysis, I will be focusing on:
 ## 3. Process phase  
 
 ### Tools  
-SQL (BigQuery): Data cleaning, transformation and merging  
 Excel: Initial data upload and schema verification  
+SQL (BigQuery): Data cleaning, transformation and merging  
+Google Data Studio: Data visualisation
 
 ### Data cleaning & transformation  
 To prepare the data for further analysis, I performed the following steps:  
 1. Format Standardization: Converted date columns from String to Date for time-based data
-2. Duplicate removal: Identified 3 suplicate entries in `sleepDay` table and removed them
+2. Duplicate removal: Identified 3 duplicate entries in `sleepDay` table and removed them
 3. Null removal: Removed 0 entry in `dailySteps` table
 4. Data Merging: Joined `cleaned_step` and `cleaned_sleep` tables on `Id` and `Date` to create dataset for further correlation analysis
 
