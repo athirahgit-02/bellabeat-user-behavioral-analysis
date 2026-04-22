@@ -104,3 +104,11 @@ Based on the analysis of user behavior trends, I have developed the following da
 5. Optimized Goal Settings
    Problem: Users are focused on hitting 10,000 steps, often at the expense of their sleep quality (especially on high-exertion days).
    Action: Switch marketing from 'Volume' to 'Quality' to achieve a "Wellness Sweet Spot." Instead of a hard 10k goal, implement a dynamic target range (e.g., 7k – 10k steps) that promotes the highest sleep efficiency.
+
+------
+### 📧 Let's Connect!
+I am a **Aspiring Data Analyst** with a background in **R&D Engineering**, specializing in turning complex technical measurements into actionable business insights.
+
+* **LinkedIn:** [linkedin.com/in/athirah-asri](LINK_HERE)
+* **Email:** athirahasri02@gmail.com
+* **Portfolio Home:** [Link to your main GitHub Profile](LINK_HERE)
