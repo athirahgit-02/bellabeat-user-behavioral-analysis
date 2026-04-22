@@ -81,7 +81,7 @@ Insight: The Highly Active tier (>10k steps) shows a spike in restlessness (Minu
 Chart: A dual-axis line chart comparing StepTotal against SleepEfficiency across the week
 Insight: Though Saturday shows the highest StepTotal, users spend more TotalTimeInBed with higher Minutes Awake (restlessness) on Sunday to recover, leading to the lowest SleepEfficiency of the week.
 
-3. [Optimum Range](.visuals/optimum_range.png)
+3. [Optimum Range](./visuals/optimum_range.png)
 Chart: A scatter plot showing StepTotal against SleepEfficiency.
 Insight: An Optimal Range between 5000 steps and 10,000 steps (Active Tier) can be identified. While users in this range maintain sleep efficiency, users that took more than 10,000 steps shows diminishing returns.
 
