@@ -1,6 +1,8 @@
 # Bellabeat Case Study
 Data analysis case study on FitBit fitness tracker data using SQL and Google Data Studio.
 
+### By Nurul Athirah
+
 ## 1. Ask phase
 
 ### Business Task
