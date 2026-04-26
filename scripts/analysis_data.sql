@@ -1,4 +1,4 @@
-/* PROJECT: Bellabeat Case Study
+/* PROJECT: Bellabeat Behavioral Analysis
 PHASE: Exploratory Data Analysis (EDA)
 PURPOSE: Identifying correlations between physical activity, sleep efficiency, and weekly trends.
 */  
