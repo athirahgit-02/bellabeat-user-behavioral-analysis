@@ -1,5 +1,5 @@
 /* 
-Project: Bellabeat Case Study  
+Project: Bellabeat Behavioral Analysis  
 Process: Data cleaning, Type Conversion & Table Joining  
 Author: Athirah Asri  
 Date: April 2026  
